@@ -3,21 +3,21 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <br>
 
-## LBExpandedCellScale ##
-
-```swift
-
-enum LBExpandedCellScale: Int {
-    case one  = 1
-    case two  = 2
-    case four = 4
-}
-
-```
-
-<br>
-
 ## Protocols ##
+
+### Example ###
+```swift
+class ViewController: UIViewController {
+
+    @IBOutlet weak var expandedCollectionView: LBExpandedCollectionView!
+    
+    override func viewDidLoad() { 
+        super.viewDidLoad()
+        expandedCollectionView.expandedDelegate   = self
+        expandedCollectionView.expandedDataSource = self
+    }
+}
+```
 
 ### Delegate - LBExpandedCollectionViewDelegate
 ### The Collection Delegate Methods.
@@ -97,6 +97,21 @@ enum LBExpandedCellScale: Int {
 }                                                                                                
 ```
 
+<br>
+
+## LBExpandedCellScale ##
+
+```swift
+
+enum LBExpandedCellScale: Int {
+    case one  = 1
+    case two  = 2
+    case four = 4
+}
+
+```
+
+<br>
 
 
 ## Expanded Cells Design ##
