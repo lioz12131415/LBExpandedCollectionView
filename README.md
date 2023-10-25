@@ -38,9 +38,7 @@ enum LBExpandedCellScale: Int {
 
 ```
 
-## Protocols ##
-
-### Delegate ###
+## Delegate
 
 #### Scale For Cell At IndexPath #####
 ```swift
