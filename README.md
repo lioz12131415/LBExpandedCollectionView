@@ -21,6 +21,8 @@ enum LBExpandedCellScale: Int {
 
 ### Delegate ###
 
+Delegate
+
 ```swift
 
 @objc public protocol LBExpandedCollectionViewDelegate {
