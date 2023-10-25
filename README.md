@@ -3,6 +3,12 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <br>
 
+|: Storyboard Setup :|
+|:---|
+|<img src="https://raw.github.com/lioz12131415/LBAnimate/main/Images/setup.gif" width="210" />|
+
+<br>
+
 ## Protocols ##
 
 ### Example ###
@@ -20,7 +26,7 @@ class ViewController: UIViewController {
 ```
 
 ### Delegate - LBExpandedCollectionViewDelegate
-### The Collection Delegate Methods.
+#### The Collection Delegate Methods.
 
 ```swift
 @objc public protocol LBExpandedCollectionViewDelegate {
@@ -56,7 +62,7 @@ class ViewController: UIViewController {
 ```
 
 ### DataSource - LBExpandedCollectionViewDataSource
-### The Collection Data Source Methods.
+#### The Collection Data Source Methods.
 
 ```swift
 @objc public protocol LBExpandedCollectionViewDataSource {
@@ -80,7 +86,7 @@ class ViewController: UIViewController {
 ```
 
 ### DelegateFlowLayout - LBExpandedCollectionViewDelegateFlowLayout
-### The Collection Flow Layout Delegate Methods.
+#### The Collection Flow Layout Delegate Methods.
 
 ```swift
 @objc public protocol LBExpandedCollectionViewDelegateFlowLayout: LBExpandedCollectionViewDelegate {
@@ -96,7 +102,6 @@ class ViewController: UIViewController {
                                            _ collectionViewLayout: LBExpandedCollectionViewFlowLayout) -> CGFloat
 }                                                                                                
 ```
-
 <br>
 
 ## LBExpandedCellScale ##
