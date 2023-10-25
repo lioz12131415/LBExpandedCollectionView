@@ -19,9 +19,8 @@ enum LBExpandedCellScale: Int {
 
 ## Protocols ##
 
-### Delegate ###
-
-Delegate
+### Delegate
+### The Collection Delegate Methods.
 ```swift
 
 @objc public protocol LBExpandedCollectionViewDelegate {
@@ -45,6 +44,28 @@ Delegate
 }                                                                                                
 
 ```
+
+### DataSource
+### The Collection Data Source Methods.
+```swift
+
+@objc public protocol LBExpandedCollectionViewDataSource {
+    /*
+     * */
+    func numberOfItems(in collectionView: LBExpandedCollectionView) -> Int
+    /*
+     * */
+    optional func viewForHeader(_ collectionView: LBExpandedCollectionView) -> UICollectionReusableView
+    /*
+     * */
+    optional func viewForFooter(_ collectionView: LBExpandedCollectionView) -> UICollectionReusableView
+    /*
+     * */
+    func expanded(_ collectionView: LBExpandedCollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
+}                                                                                                
+
+```
+
 
 
 ## Expanded Cells Design ##
