@@ -35,20 +35,22 @@ enum LBExpandedCellScale: Int {
     @objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
                                  didSelectItemAt indexPath: IndexPath)
     /*
+     * Scale For Cell At IndexPath (.one || .two || four)
      * */
     @objc optional func expanded(_ collectionView: LBExpandedCollectionView,
                                  scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
     /*
+     * Will Display Cell For Item At IndexPath
      * */
     @objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
                                  willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
-```
-
-### Did End Displaying Cell For Item At IndexPath
-```swift
-@objc optional func expanded(_ collectionView: LBExpandedCollectionView,
-                             didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    /*
+     * Did End Displaying Cell For Item At IndexPath
+     * */
+    @objc optional func expanded(_ collectionView: LBExpandedCollectionView,
+                                 didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
 }                                                                                                
+
 ```
 
 
