@@ -19,7 +19,7 @@ enum LBExpandedCellScale: Int {
 
 ## Protocols ##
 
-### Delegate
+### Delegate - LBExpandedCollectionViewDelegate
 ### The Collection Delegate Methods.
 
 ```swift
@@ -55,7 +55,7 @@ enum LBExpandedCellScale: Int {
 }
 ```
 
-### DataSource
+### DataSource - LBExpandedCollectionViewDataSource
 ### The Collection Data Source Methods.
 
 ```swift
@@ -79,7 +79,7 @@ enum LBExpandedCellScale: Int {
 }                                                                                                
 ```
 
-### DelegateFlowLayout
+### DelegateFlowLayout - LBExpandedCollectionViewDelegateFlowLayout
 ### The Collection Flow Layout Delegate Methods.
 
 ```swift
