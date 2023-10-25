@@ -17,34 +17,6 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <br>
 
-# Install #
-The recommended approach for installing LBExpandedCollectionView is the CocoaPods package manager.
-
-Install CocoaPods if not already available:
-```
-$ sudo gem install cocoapods
-```
-
-Edit your Podfile and add LBAnimate:
-```
-platform :ios, '14.0'
-use_frameworks!
-
-target 'MyApp' do
-  pod 'LBExpandedCollectionViewFramework'
-end
-```
-
-Install into your project:
-```
-$ pod install
-```
-
-# Requirements #
-LBAnimate requires at least iOS 14 or above.
-
-<br>
-
 
 ## LBExpandedCellScale ##
 
@@ -253,10 +225,30 @@ class ViewController: UIViewController {
 
 ```
 
-## LBExpandedCellScale ##
+<br>
 
-```swift
+# Install #
+The recommended approach for installing LBExpandedCollectionView is the CocoaPods package manager.
 
-
-
+Install CocoaPods if not already available:
 ```
+$ sudo gem install cocoapods
+```
+
+Edit your Podfile and add LBAnimate:
+```
+platform :ios, '14.0'
+use_frameworks!
+
+target 'MyApp' do
+  pod 'LBExpandedCollectionViewFramework'
+end
+```
+
+Install into your project:
+```
+$ pod install
+```
+
+# Requirements #
+LBAnimate requires at least iOS 14 or above.
