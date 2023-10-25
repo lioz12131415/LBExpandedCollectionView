@@ -125,7 +125,7 @@ enum LBExpandedCellScale: Int {
 
 <br>
 
-## Expanded Cells Design ##
+# Expanded Cells Design #
 
 ```swift
 
