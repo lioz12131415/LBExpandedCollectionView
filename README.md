@@ -235,7 +235,7 @@ Install CocoaPods if not already available:
 $ sudo gem install cocoapods
 ```
 
-Edit your Podfile and add LBAnimate:
+Edit your Podfile and add LBExpandedCollectionView:
 ```
 platform :ios, '14.0'
 use_frameworks!
@@ -251,4 +251,4 @@ $ pod install
 ```
 
 # Requirements #
-LBAnimate requires at least iOS 14 or above.
+LBExpandedCollectionView requires at least iOS 14 or above.
