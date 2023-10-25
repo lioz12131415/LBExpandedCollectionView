@@ -3,13 +3,89 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <br>
 
+## LBExpandedCellScale ##
+
+```swift
+
+enum LBExpandedCellScale: Int {
+    case one  = 1
+    case two  = 2
+    case four = 4
+}
+
+```
+
+<br>
+
+## Protocols ##
+
+### Delegate ###
+
+```swift
+
+protocol LBExpandedCollectionViewDelegate {
+
+    func expanded(_ collectionView: LBExpandedCollectionView,                         +----------+
+                  scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale <-+-----| optional |    
+                                                                                      +----------+
+     
+    func expanded(_ collectionView: LBExpandedCollectionView,                                     +----------+
+                  willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) <-+-----| optional |
+                                                                                                  +----------+
+    
+    func expanded(_ collectionView: LBExpandedCollectionView,                                          +----------+
+                  didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) <-+-----| optional | 
+                                                                                                       +----------+
+
+                                                                                      +----------+
+    func sizeForFooter(in collectionView: LBExpandedCollectionView) -> CGSize <-+-----| optional |
+                                                                                      +----------+                                                                                   
+                                                                                            
+                                                                                      +----------+           
+    func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize <-+-----| optional |
+                                                                                      +----------+
+                                                                                                            +----------+
+    func expanded(_ collectionView: LBExpandedCollectionView, didSelectItemAt indexPath: IndexPath) <-+-----| optional |
+                                                                                                            +----------+
+
+}                                                                                                      
+
+```
+
+
 ## Expanded Cells Design ##
 
 ```swift
 
++-----------+          +---------------------+
+|           | <-+----- | Scale one           |
+|     0     |          +---------------------+
+|           |          | LBExpandedCellScale |
++-----------+          +---------------------+
+
++-----------+          +---------------------+
+|           | <-+----- | Scale two           |
+|           |          +---------------------+
+|           |          | LBExpandedCellScale |       
+|     0     |          +---------------------+
+|           |
+|           |
+|           |
++-----------+
+
++-----------+----------+          +---------------------+
+|                      | <-+----- | Scale four          |
+|                      |          +---------------------+
+|                      |          | LBExpandedCellScale |   
+|           0          |          +---------------------+
+|                      |
+|                      |
+|                      |
++-----------+----------+
+
 +-----------+-----------+----------+         +-----------------------+
 |           |           |          | <-+-----| LBExpandedCellScale - |
-|     0     |     1     |     3    |         | index -> 0 == two     |
+|     0     |     1     |     3    |         | index -> 0 == one     |
 |           |           |          |         | index -> 1 == one     |
 +-----------+-----------+----------+         | index -> 2 == one     |
                                              +-----------------------+
@@ -79,36 +155,7 @@ This library provides a custom UICollectionView that allows to expand the cells.
 ## LBExpandedCellScale ##
 
 ```swift
-enum LBExpandedCellScale: Int {
-    case one  = 1
-    case two  = 2
-    case four = 4
-}
 
-+-----------+          +-----------+
-|           | <-+----- | Scale one |
-|     0     |          +-----------+
-|           |
-+-----------+
 
-+-----------+          +-----------+
-|           | <-+----- | Scale two |
-|           |          +-----------+
-|           |
-|     0     |
-|           |
-|           |
-|           |
-+-----------+
-
-+-----------+----------+          +------------+
-|                      | <-+----- | Scale four |
-|                      |          +------------+
-|                      |
-|           0          |
-|                      |
-|                      |
-|                      |
-+-----------+----------+
 
 ```
