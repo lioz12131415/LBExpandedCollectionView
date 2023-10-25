@@ -5,7 +5,7 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 |: Storyboard Setup :|
 |:---|
-|<img src="https://raw.github.com/lioz12131415/LBAnimate/main/Images/setup.gif" width="210" />|
+|<p> <img src="https://raw.github.com/lioz12131415/LBAnimate/main/Images/setup.gif" width="210" /> </p>|
 
 <br>
 
