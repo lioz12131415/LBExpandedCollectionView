@@ -17,6 +17,20 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <br>
 
+## LBExpandedCellScale ##
+
+```swift
+
+enum LBExpandedCellScale: Int {
+    case one  = 1
+    case two  = 2
+    case four = 4
+}
+
+```
+
+<br>
+
 ## Protocols ##
 
 ### Example ###
@@ -112,21 +126,6 @@ class ViewController: UIViewController {
 ```
 
 <br>
-
-## LBExpandedCellScale ##
-
-```swift
-
-enum LBExpandedCellScale: Int {
-    case one  = 1
-    case two  = 2
-    case four = 4
-}
-
-```
-
-<br>
-
 
 ## Expanded Cells Design ##
 
