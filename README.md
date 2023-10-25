@@ -12,11 +12,7 @@ This library provides a custom UICollectionView that allows to expand the cells.
 <p float="center">
 <img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_zero.jpg" width="210" />
 <img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Gifs/zero.gif" width="210" /> 
-</p>
-
-<p>
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_one.PNG"  width="400" />
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Gifs/one.gif"  width="400" />
+<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_one.PNG"  width="425" />
 </p>
 
 <br>
