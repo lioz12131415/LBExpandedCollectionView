@@ -29,13 +29,17 @@ enum LBExpandedCellScale: Int {
 
     optional func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize
 
-    optional func expanded(_ collectionView: LBExpandedCollectionView,  didSelectItemAt indexPath: IndexPath)
+    optional func expanded(_ collectionView: LBExpandedCollectionView, 
+                           didSelectItemAt indexPath: IndexPath)
     
-    optional func expanded(_ collectionView: LBExpandedCollectionView, scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
+    optional func expanded(_ collectionView: LBExpandedCollectionView, 
+                           scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
     
-    optional func expanded(_ collectionView: LBExpandedCollectionView,  willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    optional func expanded(_ collectionView: LBExpandedCollectionView, 
+                           willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
     
-    optional func expanded(_ collectionView: LBExpandedCollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    optional func expanded(_ collectionView: LBExpandedCollectionView, 
+                           didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
     
 }                                                                                                
 
