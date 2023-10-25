@@ -12,8 +12,8 @@ This library provides a custom UICollectionView that allows to expand the cells.
 <p float="center">
 <img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_zero.jpg" width="210" />
 <img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_zero.jpg" width="210" /> 
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_zero.jpg  width="425" height="100" />
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_zero.jpg" width="425" height="100" />
+<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_one.png  width="425" />
+<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_one.png" width="425" />
 </p>
 
 <br>
