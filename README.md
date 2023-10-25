@@ -18,9 +18,10 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <p>
 <img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_one.PNG" width="400" />
+<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_one.PNG" width="400" />
 </p>
 <p>
-<img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/screen_snapshot_one.PNG" width="400" />
+
 </p>
 
 <br>
