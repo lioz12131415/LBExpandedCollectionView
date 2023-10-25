@@ -79,6 +79,24 @@ enum LBExpandedCellScale: Int {
 }                                                                                                
 ```
 
+### DelegateFlowLayout
+### The Collection Flow Layout Delegate Methods.
+
+```swift
+@objc public protocol LBExpandedCollectionViewDelegateFlowLayout: LBExpandedCollectionViewDelegate {
+    /*
+     * Spacing -> Top \ Bottom
+     * */
+     optional func minimumLineSpacing(_ collectionView:       LBExpandedCollectionView,
+                                      _ collectionViewLayout: LBExpandedCollectionViewFlowLayout) -> CGFloat
+    /*
+     * Spacing Left \ Right
+     * */
+     optional func minimumInteritemSpacing(_ collectionView:       LBExpandedCollectionView,
+                                           _ collectionViewLayout: LBExpandedCollectionViewFlowLayout) -> CGFloat
+}                                                                                                
+```
+
 
 
 ## Expanded Cells Design ##
