@@ -3,7 +3,7 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <br>
 
-|:Storyboard Setup:|
+|Storyboard Setup:|
 |:---|
 |<p> <img src="https://raw.githubusercontent.com/lioz12131415/LBExpandedCollectionView/main/Images/setup.png" width="400" /> </p>|
 
