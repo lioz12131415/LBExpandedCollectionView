@@ -20,7 +20,7 @@ enum LBExpandedCellScale: Int {
 ## Protocols ##
 
 ### Delegate ###
-### The Collection Delegate Methods.
+**The Collection Delegate Methods.**
 ```swift
 @objc public protocol LBExpandedCollectionViewDelegate {
     /*
