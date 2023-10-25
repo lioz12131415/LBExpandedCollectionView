@@ -24,38 +24,21 @@ enum LBExpandedCellScale: Int {
 ```swift
 
 @objc public protocol LBExpandedCollectionViewDelegate {
-    /*
-     * */
-    @objc optional func sizeForFooter(in collectionView: LBExpandedCollectionView) -> CGSize
-    /*
-     * */
-    @objc optional func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize
-    /*
-     * */
-    @objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                                 didSelectItemAt indexPath: IndexPath)
+
+    optional func sizeForFooter(in collectionView: LBExpandedCollectionView) -> CGSize
+
+    optional func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize
+
+    optional func expanded(_ collectionView: LBExpandedCollectionView,  didSelectItemAt indexPath: IndexPath)
+    
+    optional func expanded(_ collectionView: LBExpandedCollectionView, scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
+    
+    optional func expanded(_ collectionView: LBExpandedCollectionView,  willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    
+    optional func expanded(_ collectionView: LBExpandedCollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    
 }                                                                                                
 
-```
-
-## Delegate
-
-#### Scale For Cell At IndexPath #####
-```swift
-@objc optional func expanded(_ collectionView: LBExpandedCollectionView,
-                             scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
-```
-
-#### Will Display Cell For Item At IndexPath #####
-```swift
-@objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                             willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
-```
-
-#### Did End Displaying Cell For Item At IndexPath #####
-```swift
-@objc optional func expanded(_ collectionView: LBExpandedCollectionView,
-                             didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
 ```
 
 
