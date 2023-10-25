@@ -1,0 +1,11 @@
+framework module LBExpandedCollectionViewFramework {
+  umbrella header "LBExpandedCollectionViewFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module LBExpandedCollectionViewFramework.Swift {
+  header "LBExpandedCollectionViewFramework-Swift.h"
+  requires objc
+}

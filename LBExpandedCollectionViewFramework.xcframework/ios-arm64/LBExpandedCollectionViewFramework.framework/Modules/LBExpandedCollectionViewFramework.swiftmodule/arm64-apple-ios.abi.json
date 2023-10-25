@@ -1,0 +1,4323 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBExpandedCollectionViewDataSource",
+        "printedName": "LBExpandedCollectionViewDataSource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "numberOfItems",
+            "printedName": "numberOfItems(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDataSource(im)numberOfItemsIn:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10DataSourceP13numberOfItems2inSiAA0abC0C_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "protocolReq": true,
+            "objc_name": "numberOfItemsIn:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "expanded",
+            "printedName": "expanded(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDataSource(im)expanded:cellForItemAt:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10DataSourceP8expanded_13cellForItemAtSo012UICollectionC4CellCAA0abC0C_10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewForHeader",
+            "printedName": "viewForHeader(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionReusableView",
+                "printedName": "UIKit.UICollectionReusableView",
+                "usr": "c:objc(cs)UICollectionReusableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDataSource(im)viewForHeader:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10DataSourceP13viewForHeaderySo020UICollectionReusableC0CAA0abC0CF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewForFooter",
+            "printedName": "viewForFooter(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionReusableView",
+                "printedName": "UIKit.UICollectionReusableView",
+                "usr": "c:objc(cs)UICollectionReusableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDataSource(im)viewForFooter:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10DataSourceP13viewForFooterySo020UICollectionReusableC0CAA0abC0CF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDataSource",
+        "mangledName": "$s33LBExpandedCollectionViewFramework0abC10DataSourceP",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBExpandedCollectionViewFlowLayout",
+        "printedName": "LBExpandedCollectionViewFlowLayout",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "collectionViewContentSize",
+            "printedName": "collectionViewContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout(py)collectionViewContentSize",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutC010collectionC11ContentSizeSo6CGSizeVvp",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "collectionViewContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout(im)collectionViewContentSize",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutC010collectionC11ContentSizeSo6CGSizeVvg",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "overriding": true,
+                "objc_name": "collectionViewContentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout(im)prepareLayout",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutC7prepareyyF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "prepareLayout",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutAttributesForElements",
+            "printedName": "layoutAttributesForElements(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UICollectionViewLayoutAttributes]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UICollectionViewLayoutAttributes]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UICollectionViewLayoutAttributes",
+                        "printedName": "UIKit.UICollectionViewLayoutAttributes",
+                        "usr": "c:objc(cs)UICollectionViewLayoutAttributes"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout(im)layoutAttributesForElementsInRect:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutC27layoutAttributesForElements2inSaySo012UICollectioncfH0CGSgSo6CGRectV_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "layoutAttributesForElementsInRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutAttributesForItem",
+            "printedName": "layoutAttributesForItem(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UICollectionViewLayoutAttributes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UICollectionViewLayoutAttributes",
+                    "printedName": "UIKit.UICollectionViewLayoutAttributes",
+                    "usr": "c:objc(cs)UICollectionViewLayoutAttributes"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout(im)layoutAttributesForItemAtIndexPath:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutC23layoutAttributesForItem2atSo012UICollectioncfH0CSg10Foundation9IndexPathV_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "layoutAttributesForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionViewFlowLayout",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewFlowLayout",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout(im)init",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutCACycfc",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewFlowLayout?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LBExpandedCollectionViewFlowLayout",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewFlowLayout",
+                    "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout(im)initWithCoder:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout",
+        "mangledName": "$s33LBExpandedCollectionViewFramework0abC10FlowLayoutC",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionViewFlowLayout",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionViewFlowLayout",
+          "UIKit.UICollectionViewLayout",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBExpandedCellScale",
+        "printedName": "LBExpandedCellScale",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "one",
+            "printedName": "one",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LBExpandedCollectionViewFramework.LBExpandedCellScale.Type) -> LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LBExpandedCellScale",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                    "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBExpandedCellScale",
+                        "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                        "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale@LBExpandedCellScaleOne",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0A9CellScaleO3oneyA2CmF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "two",
+            "printedName": "two",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LBExpandedCollectionViewFramework.LBExpandedCellScale.Type) -> LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LBExpandedCellScale",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                    "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBExpandedCellScale",
+                        "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                        "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale@LBExpandedCellScaleTwo",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0A9CellScaleO3twoyA2CmF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "four",
+            "printedName": "four",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LBExpandedCollectionViewFramework.LBExpandedCellScale.Type) -> LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LBExpandedCellScale",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                    "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBExpandedCellScale",
+                        "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                        "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale@LBExpandedCellScaleFour",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0A9CellScaleO4fouryA2CmF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LBExpandedCellScale",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                    "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:33LBExpandedCollectionViewFramework0A9CellScaleO8rawValueACSgSi_tcfc",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0A9CellScaleO8rawValueACSgSi_tcfc",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:33LBExpandedCollectionViewFramework0A9CellScaleO8rawValueSivp",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0A9CellScaleO8rawValueSivp",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0A9CellScaleO8rawValueSivg",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0A9CellScaleO8rawValueSivg",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale",
+        "mangledName": "$s33LBExpandedCollectionViewFramework0A9CellScaleO",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBExpandedCollectionView",
+        "printedName": "LBExpandedCollectionView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "numberOfItems",
+            "printedName": "numberOfItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:33LBExpandedCollectionViewFramework0abC0C13numberOfItemsSivp",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C13numberOfItemsSivp",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0abC0C13numberOfItemsSivg",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C13numberOfItemsSivg",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UICollectionViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UICollectionViewDelegate",
+                    "printedName": "UIKit.UICollectionViewDelegate",
+                    "usr": "c:objc(pl)UICollectionViewDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(py)delegate",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C8delegateSo012UICollectionC8Delegate_pSgvp",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "delegate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UICollectionViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UICollectionViewDelegate",
+                        "printedName": "UIKit.UICollectionViewDelegate",
+                        "usr": "c:objc(pl)UICollectionViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)delegate",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C8delegateSo012UICollectionC8Delegate_pSgvg",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "overriding": true,
+                "objc_name": "delegate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UICollectionViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UICollectionViewDelegate",
+                        "printedName": "UIKit.UICollectionViewDelegate",
+                        "usr": "c:objc(pl)UICollectionViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)setDelegate:",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C8delegateSo012UICollectionC8Delegate_pSgvs",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "overriding": true,
+                "objc_name": "setDelegate:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataSource",
+            "printedName": "dataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UICollectionViewDataSource?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UICollectionViewDataSource",
+                    "printedName": "UIKit.UICollectionViewDataSource",
+                    "usr": "c:objc(pl)UICollectionViewDataSource"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(py)dataSource",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C10dataSourceSo012UICollectionc4DataF0_pSgvp",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "dataSource",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UICollectionViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UICollectionViewDataSource",
+                        "printedName": "UIKit.UICollectionViewDataSource",
+                        "usr": "c:objc(pl)UICollectionViewDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)dataSource",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C10dataSourceSo012UICollectionc4DataF0_pSgvg",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "overriding": true,
+                "objc_name": "dataSource",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UICollectionViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UICollectionViewDataSource",
+                        "printedName": "UIKit.UICollectionViewDataSource",
+                        "usr": "c:objc(pl)UICollectionViewDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)setDataSource:",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C10dataSourceSo012UICollectionc4DataF0_pSgvs",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "overriding": true,
+                "objc_name": "setDataSource:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expandedDelegate",
+            "printedName": "expandedDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvp",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvp",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBExpandedCollectionViewDelegate",
+                        "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate",
+                        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvg",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvg",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBExpandedCollectionViewDelegate",
+                        "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate",
+                        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvs",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvs",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvM",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C16expandedDelegateAA0abcF0_pSgvM",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expandedDataSource",
+            "printedName": "expandedDataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvp",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvp",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBExpandedCollectionViewDataSource",
+                        "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource",
+                        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvg",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvg",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBExpandedCollectionViewDataSource",
+                        "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource",
+                        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvs",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvs",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvM",
+                "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C18expandedDataSourceAA0abcfG0_pSgvM",
+                "moduleName": "LBExpandedCollectionViewFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)awakeFromNib",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C12awakeFromNibyyF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadData",
+            "printedName": "reloadData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)reloadData",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C10reloadDatayyF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "objc_name": "reloadData",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueReusableFooterView",
+            "printedName": "dequeueReusableFooterView(withIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionReusableView",
+                "printedName": "UIKit.UICollectionReusableView",
+                "usr": "c:objc(cs)UICollectionReusableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:33LBExpandedCollectionViewFramework0abC0C021dequeueReusableFooterC014withIdentifierSo012UICollectionfC0CSS_tF",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C021dequeueReusableFooterC014withIdentifierSo012UICollectionfC0CSS_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueReusableHeaderView",
+            "printedName": "dequeueReusableHeaderView(withIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionReusableView",
+                "printedName": "UIKit.UICollectionReusableView",
+                "usr": "c:objc(cs)UICollectionReusableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:33LBExpandedCollectionViewFramework0abC0C021dequeueReusableHeaderC014withIdentifierSo012UICollectionfC0CSS_tF",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C021dequeueReusableHeaderC014withIdentifierSo012UICollectionfC0CSS_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:collectionViewLayout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)initWithFrame:collectionViewLayout:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C5frame010collectionC6LayoutACSo6CGRectV_So012UICollectioncG0Ctcfc",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:collectionViewLayout:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LBExpandedCollectionView",
+                    "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                    "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)initWithCoder:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfSections",
+            "printedName": "numberOfSections(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)numberOfSectionsInCollectionView:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C16numberOfSections2inSiSo012UICollectionC0C_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "numberOfSectionsInCollectionView:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:numberOfItemsInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:numberOfItemsInSection:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_22numberOfItemsInSectionSiSo012UICollectionC0C_SitF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:numberOfItemsInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:cellForItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:cellForItemAtIndexPath:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_13cellForItemAtSo012UICollectionC4CellCSo0jC0C_10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:cellForItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:viewForSupplementaryElementOfKind:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionReusableView",
+                "printedName": "UIKit.UICollectionReusableView",
+                "usr": "c:objc(cs)UICollectionReusableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:viewForSupplementaryElementOfKind:atIndexPath:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_33viewForSupplementaryElementOfKind2atSo020UICollectionReusableC0CSo0mC0C_SS10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:viewForSupplementaryElementOfKind:atIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:referenceSizeForFooterInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:layout:referenceSizeForFooterInSection:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_6layout31referenceSizeForFooterInSectionSo6CGSizeVSo012UICollectionC0C_So0nC6LayoutCSitF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:layout:referenceSizeForFooterInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:layout:referenceSizeForHeaderInSection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewLayout",
+                "printedName": "UIKit.UICollectionViewLayout",
+                "usr": "c:objc(cs)UICollectionViewLayout"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:layout:referenceSizeForHeaderInSection:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_6layout31referenceSizeForHeaderInSectionSo6CGSizeVSo012UICollectionC0C_So0nC6LayoutCSitF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:layout:referenceSizeForHeaderInSection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:didSelectItemAtIndexPath:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_15didSelectItemAtySo012UICollectionC0C_10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:didSelectItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:willDisplay:forItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:willDisplayCell:forItemAtIndexPath:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_11willDisplay9forItemAtySo012UICollectionC0C_So0kC4CellC10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:willDisplayCell:forItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didEndDisplaying:forItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView(im)collectionView:didEndDisplayingCell:forItemAtIndexPath:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C010collectionC0_16didEndDisplaying9forItemAtySo012UICollectionC0C_So0lC4CellC10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "objc_name": "collectionView:didEndDisplayingCell:forItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView",
+        "mangledName": "$s33LBExpandedCollectionViewFramework0abC0C",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionView",
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBExpandedCollectionViewDelegateFlowLayout",
+        "printedName": "LBExpandedCollectionViewDelegateFlowLayout",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "minimumLineSpacing",
+            "printedName": "minimumLineSpacing(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionViewFlowLayout",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewFlowLayout",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegateFlowLayout(im)minimumLineSpacing::",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC18DelegateFlowLayoutP18minimumLineSpacingy12CoreGraphics7CGFloatVAA0abC0C_AA0abcfG0CtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegateFlowLayout>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegateFlowLayout>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minimumInteritemSpacing",
+            "printedName": "minimumInteritemSpacing(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionViewFlowLayout",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionViewFlowLayout",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionViewFlowLayout"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegateFlowLayout(im)minimumInteritemSpacing::",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC18DelegateFlowLayoutP23minimumInteritemSpacingy12CoreGraphics7CGFloatVAA0abC0C_AA0abcfG0CtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegateFlowLayout>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegateFlowLayout>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegateFlowLayout",
+        "mangledName": "$s33LBExpandedCollectionViewFramework0abC18DelegateFlowLayoutP",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "genericSig": "<τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+        "sugared_genericSig": "<Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LBExpandedCollectionViewDelegate",
+            "printedName": "LBExpandedCollectionViewDelegate",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBExpandedCollectionViewDelegate",
+        "printedName": "LBExpandedCollectionViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sizeForFooter",
+            "printedName": "sizeForFooter(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate(im)sizeForFooterIn:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP13sizeForFooter2inSo6CGSizeVAA0abC0C_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "protocolReq": true,
+            "objc_name": "sizeForFooterIn:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sizeForHeader",
+            "printedName": "sizeForHeader(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate(im)sizeForHeaderIn:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP13sizeForHeader2inSo6CGSizeVAA0abC0C_tF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "protocolReq": true,
+            "objc_name": "sizeForHeaderIn:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "expanded",
+            "printedName": "expanded(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate(im)expanded:didSelectItemAt:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP8expanded_15didSelectItemAtyAA0abC0C_10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "expanded",
+            "printedName": "expanded(_:scaleForCellAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCellScale",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCellScale",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@E@LBExpandedCellScale"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate(im)expanded:scaleForCellAt:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP8expanded_14scaleForCellAtAA0aI5ScaleOAA0abC0C_10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "expanded",
+            "printedName": "expanded(_:willDisplay:forItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate(im)expanded:willDisplay:forItemAt:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP8expanded_11willDisplay9forItemAtyAA0abC0C_So012UICollectionC4CellC10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "expanded",
+            "printedName": "expanded(_:didEndDisplaying:forItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBExpandedCollectionView",
+                "printedName": "LBExpandedCollectionViewFramework.LBExpandedCollectionView",
+                "usr": "c:@M@LBExpandedCollectionViewFramework@objc(cs)LBExpandedCollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionViewCell",
+                "printedName": "UIKit.UICollectionViewCell",
+                "usr": "c:objc(cs)UICollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate(im)expanded:didEndDisplaying:forItemAt:",
+            "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP8expanded_16didEndDisplaying9forItemAtyAA0abC0C_So012UICollectionC4CellC10Foundation9IndexPathVtF",
+            "moduleName": "LBExpandedCollectionViewFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "sugared_genericSig": "<Self where Self : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@LBExpandedCollectionViewFramework@objc(pl)LBExpandedCollectionViewDelegate",
+        "mangledName": "$s33LBExpandedCollectionViewFramework0abC8DelegateP",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBExpandedCollectionViewFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 836,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 839,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 912,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1304,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1319,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1393,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1452,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1467,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 1680,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1759,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1762,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1813,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1816,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2237,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2398,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2402,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2501,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2601,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2701,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2785,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2789,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2873,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2877,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2959,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2963,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2967,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2989,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3425,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3559,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3566,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3570,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3608,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3615,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3619,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3720,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3820,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3920,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4005,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4009,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4092,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4096,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4100,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4122,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4185,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4189,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4645,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4779,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4786,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4790,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4828,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4835,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4839,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4940,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5040,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5140,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5219,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5223,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5227,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5249,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5311,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5315,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5399,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfFour\/One_Of_Four_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5403,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "Array",
+      "offset": 262,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 787,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "Array",
+      "offset": 2066,
+      "length": 49,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2166,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2244,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2249,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2263,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2267,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2886,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3252,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3438,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3806,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3880,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6325,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6410,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6421,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6464,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6475,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6533,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6544,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6587,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6598,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6656,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6667,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6710,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6721,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/LBSections.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6806,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/LBSection.swift",
+      "kind": "Array",
+      "offset": 639,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/LBSection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 709,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/LBSection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 921,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/LBSection.swift",
+      "kind": "Array",
+      "offset": 1153,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/Extensions\/LBSections+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/Extensions\/LBSections+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/Extensions\/LBSections+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Sections\/Extensions\/LBSections+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Protocols\/DataSource\/LBExpandedCollectionViewDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Protocols\/DataSource\/LBExpandedCollectionViewDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/LBExpandedCollectionViewFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1523,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/LBExpandedCollectionViewFlowLayout.swift",
+      "kind": "FloatLiteral",
+      "offset": 1606,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/LBExpandedCollectionViewFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/LBExpandedCollectionViewFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2600,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/LBExpandedCollectionViewFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3894,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Enums\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Enums\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Enums\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Enums\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Enums\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Enums\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/SupplementaryView\/Models\/Header\/LBExpandedCollectionViewFlowLayout.Header.swift",
+      "kind": "IntegerLiteral",
+      "offset": 794,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/SupplementaryView\/Models\/Header\/LBExpandedCollectionViewFlowLayout.Header.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 905,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 975,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 978,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1393,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1452,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1467,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1526,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1541,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 1754,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1833,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1836,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1887,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1890,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2442,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2542,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2642,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2742,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2811,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2950,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2954,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2997,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3001,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3066,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3070,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3146,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3150,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3232,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3236,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3318,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3322,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3344,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3406,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3410,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3492,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3496,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4004,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4104,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4204,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4304,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4404,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4473,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4612,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4616,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4659,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4663,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4706,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4710,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4753,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4757,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4833,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4837,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4859,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4921,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 4925,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5007,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5011,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5093,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5097,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5179,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 5183,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5795,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5895,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5995,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6095,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6172,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6311,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6315,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6358,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6362,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6405,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6409,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6452,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6456,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6532,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6536,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6558,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6620,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6624,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6706,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6710,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6792,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6796,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6878,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/OneOfTwo\/One_Of_Two_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 6882,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/Extensions\/LBExpandedCollectionViewFlowLayout+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 533,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/Extensions\/LBExpandedCollectionViewFlowLayout+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 655,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/Extensions\/LBExpandedCollectionViewFlowLayout+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 772,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/Extensions\/LBExpandedCollectionViewFlowLayout+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 777,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/Extensions\/LBExpandedCollectionViewFlowLayout+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 891,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/Extensions\/LBExpandedCollectionViewFlowLayout+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 896,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/SupplementaryView\/Models\/Footer\/LBExpandedCollectionViewFlowLayout.Footer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 796,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/FlowLayout\/SupplementaryView\/Models\/Footer\/LBExpandedCollectionViewFlowLayout.Footer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 669,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 732,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1087,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1102,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 1305,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1384,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1433,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2555,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2655,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2722,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2797,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2801,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2844,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2848,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2929,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 2933,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3020,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3024,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3111,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "FloatLiteral",
+      "offset": 3115,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3216,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3326,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Section\/Models\/ThreeOfOne\/Three_Of_One_Section.swift",
+      "kind": "Array",
+      "offset": 3377,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 583,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 624,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 655,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 727,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 824,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBExpandedCollectionViewFramework\/XCFrameworks\/LBExpandedCollectionViewFramework\/Helpers\/Extensions\/Range\/Range.swift",
+      "kind": "IntegerLiteral",
+      "offset": 920,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

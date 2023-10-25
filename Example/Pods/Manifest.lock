@@ -1,0 +1,16 @@
+PODS:
+  - LBExpandedCollectionViewFramework (0.0.1)
+
+DEPENDENCIES:
+  - LBExpandedCollectionViewFramework (from `../`)
+
+EXTERNAL SOURCES:
+  LBExpandedCollectionViewFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LBExpandedCollectionViewFramework: 1089db4cb324f88e5f4f468aa30a33a40f8d44f5
+
+PODFILE CHECKSUM: b36c1de06a4870f96a682430ca6671f1e5cfc3a2
+
+COCOAPODS: 1.13.0

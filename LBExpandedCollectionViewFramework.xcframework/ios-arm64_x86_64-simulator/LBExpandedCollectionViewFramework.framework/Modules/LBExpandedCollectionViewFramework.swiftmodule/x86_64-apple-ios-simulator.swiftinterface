@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LBExpandedCollectionViewFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import LBExpandedCollectionViewFramework
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension LBExpandedCollectionViewFramework.LBExpandedCollectionView : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, viewForSupplementaryElementOfKind kind: Swift.String, at indexPath: Foundation.IndexPath) -> UIKit.UICollectionReusableView
+}
+@objc public protocol LBExpandedCollectionViewDataSource {
+  @objc func numberOfItems(in collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView) -> Swift.Int
+  @objc func expanded(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @objc optional func viewForHeader(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView) -> UIKit.UICollectionReusableView
+  @objc optional func viewForFooter(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView) -> UIKit.UICollectionReusableView
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class LBExpandedCollectionViewFlowLayout : UIKit.UICollectionViewFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var collectionViewContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func prepare()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutAttributesForElements(in rect: CoreFoundation.CGRect) -> [UIKit.UICollectionViewLayoutAttributes]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutAttributesForItem(at indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewLayoutAttributes?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public enum LBExpandedCellScale : Swift.Int {
+  case one = 1
+  case two = 2
+  case four = 4
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class LBExpandedCollectionView : UIKit.UICollectionView {
+  @_Concurrency.MainActor(unsafe) public var numberOfItems: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var delegate: (any UIKit.UICollectionViewDelegate)? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var dataSource: (any UIKit.UICollectionViewDataSource)? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) weak public var expandedDelegate: (any LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak public var expandedDataSource: (any LBExpandedCollectionViewFramework.LBExpandedCollectionViewDataSource)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func reloadData()
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableFooterView(withIdentifier identifier: Swift.String) -> UIKit.UICollectionReusableView
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableHeaderView(withIdentifier identifier: Swift.String) -> UIKit.UICollectionReusableView
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect, collectionViewLayout layout: UIKit.UICollectionViewLayout)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension LBExpandedCollectionViewFramework.LBExpandedCollectionView : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, referenceSizeForFooterInSection section: Swift.Int) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, referenceSizeForHeaderInSection section: Swift.Int) -> CoreFoundation.CGSize
+}
+@objc public protocol LBExpandedCollectionViewDelegateFlowLayout : LBExpandedCollectionViewFramework.LBExpandedCollectionViewDelegate {
+  @objc optional func minimumLineSpacing(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView, _ collectionViewLayout: LBExpandedCollectionViewFramework.LBExpandedCollectionViewFlowLayout) -> CoreFoundation.CGFloat
+  @objc optional func minimumInteritemSpacing(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView, _ collectionViewLayout: LBExpandedCollectionViewFramework.LBExpandedCollectionViewFlowLayout) -> CoreFoundation.CGFloat
+}
+extension LBExpandedCollectionViewFramework.LBExpandedCollectionView : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, didEndDisplaying cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+}
+@objc public protocol LBExpandedCollectionViewDelegate {
+  @objc optional func sizeForFooter(in collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView) -> CoreFoundation.CGSize
+  @objc optional func sizeForHeader(in collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView) -> CoreFoundation.CGSize
+  @objc optional func expanded(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @objc optional func expanded(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView, scaleForCellAt indexPath: Foundation.IndexPath) -> LBExpandedCollectionViewFramework.LBExpandedCellScale
+  @objc optional func expanded(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+  @objc optional func expanded(_ collectionView: LBExpandedCollectionViewFramework.LBExpandedCollectionView, didEndDisplaying cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+}
+extension LBExpandedCollectionViewFramework.LBExpandedCellScale : Swift.Equatable {}
+extension LBExpandedCollectionViewFramework.LBExpandedCellScale : Swift.Hashable {}
+extension LBExpandedCollectionViewFramework.LBExpandedCellScale : Swift.RawRepresentable {}

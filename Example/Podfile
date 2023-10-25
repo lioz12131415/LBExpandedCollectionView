@@ -1,0 +1,8 @@
+ platform :ios, '14.0'
+
+target 'LBExpandedCollectionViewExample' do
+  use_frameworks!
+
+ pod 'LBExpandedCollectionViewFramework', :path => '../'
+
+end
