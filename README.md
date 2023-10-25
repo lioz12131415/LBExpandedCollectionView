@@ -17,9 +17,9 @@ This library provides a custom UICollectionView that allows to expand the cells.
 
 <br>
 
-## Protocols ##
+# Protocols #
 
-### Example ###
+## Example ##
 ```swift
 class ViewController: UIViewController {
 
@@ -33,8 +33,8 @@ class ViewController: UIViewController {
 }
 ```
 
-### Delegate - LBExpandedCollectionViewDelegate
-#### The Collection Delegate Methods.
+## Delegate - LBExpandedCollectionViewDelegate
+### The Collection Delegate Methods.
 
 ```swift
 @objc public protocol LBExpandedCollectionViewDelegate {
@@ -69,8 +69,8 @@ class ViewController: UIViewController {
 }
 ```
 
-### DataSource - LBExpandedCollectionViewDataSource
-#### The Collection Data Source Methods.
+## DataSource - LBExpandedCollectionViewDataSource
+### The Collection Data Source Methods.
 
 ```swift
 @objc public protocol LBExpandedCollectionViewDataSource {
@@ -93,8 +93,8 @@ class ViewController: UIViewController {
 }                                                                                                
 ```
 
-### DelegateFlowLayout - LBExpandedCollectionViewDelegateFlowLayout
-#### The Collection Flow Layout Delegate Methods.
+## DelegateFlowLayout - LBExpandedCollectionViewDelegateFlowLayout
+### The Collection Flow Layout Delegate Methods.
 
 ```swift
 @objc public protocol LBExpandedCollectionViewDelegateFlowLayout: LBExpandedCollectionViewDelegate {
@@ -113,7 +113,7 @@ class ViewController: UIViewController {
 
 <br>
 
-## LBExpandedCellScale ##
+# LBExpandedCellScale #
 
 ```swift
 enum LBExpandedCellScale: Int {
