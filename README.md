@@ -20,50 +20,58 @@ enum LBExpandedCellScale: Int {
 ## Protocols ##
 
 ### Delegate
-### The Collection Delegate Methods.
+The Collection Delegate Methods.
 ```swift
-
 @objc public protocol LBExpandedCollectionViewDelegate {
-
-    optional func sizeForFooter(in collectionView: LBExpandedCollectionView) -> CGSize
-
-    optional func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize
-
-    optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                           didSelectItemAt indexPath: IndexPath)
-    
-    optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                           scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
-    
-    optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                           willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
-    
-    optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                           didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
-    
-}                                                                                                
-
+    /*
+     * */
+    @objc optional func sizeForFooter(in collectionView: LBExpandedCollectionView) -> CGSize
+    /*
+     * */
+    @objc optional func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize
+    /*
+     * */
+    @objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
+                                 didSelectItemAt indexPath: IndexPath)
+    /*
+     * */
+    @objc optional func expanded(_ collectionView: LBExpandedCollectionView,
+                                 scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
+    /*
+     * Will Display Cell for Collection Item At IndexPath.
+     * */
+    @objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
+                                 willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    /*
+     * Did End Displaying Cell for Collection Item At IndexPath.
+     * */
+     optional func expanded(_ collectionView: LBExpandedCollectionView,
+                             didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+}
 ```
 
-### DataSource
-### The Collection Data Source Methods.
-```swift
+### DataSource ###
+The Collection Data Source Methods.
 
+```swift
 @objc public protocol LBExpandedCollectionViewDataSource {
     /*
+     * Number Of Collection Items.
      * */
     func numberOfItems(in collectionView: LBExpandedCollectionView) -> Int
     /*
+     * View For Collection Header.
      * */
     optional func viewForHeader(_ collectionView: LBExpandedCollectionView) -> UICollectionReusableView
     /*
+     * View For Collection Footer.
      * */
     optional func viewForFooter(_ collectionView: LBExpandedCollectionView) -> UICollectionReusableView
-    /*
+    /* 
+     * Cell For Collection Item At IndexPath.
      * */
     func expanded(_ collectionView: LBExpandedCollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
 }                                                                                                
-
 ```
 
 
