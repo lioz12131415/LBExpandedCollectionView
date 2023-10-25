@@ -19,39 +19,44 @@ enum LBExpandedCellScale: Int {
 
 ## Protocols ##
 
-### Delegate ###
-**The Collection Delegate Methods.**
+### Delegate
+### The Collection Delegate Methods.
+
 ```swift
 @objc public protocol LBExpandedCollectionViewDelegate {
+
     /*
+     * Scale For Cell At IndexPath
      * */
-    @objc optional func sizeForFooter(in collectionView: LBExpandedCollectionView) -> CGSize
-    /*
-     * */
-    @objc optional func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize
-    /*
-     * */
-    @objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                                 didSelectItemAt indexPath: IndexPath)
-    /*
-     * */
-    @objc optional func expanded(_ collectionView: LBExpandedCollectionView,
-                                 scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
+     optional func expanded(_ collectionView: LBExpandedCollectionView,
+                            scaleForCellAt indexPath: IndexPath) -> LBExpandedCellScale
     /*
      * Will Display Cell for Collection Item At IndexPath.
      * */
-    @objc optional func expanded(_ collectionView: LBExpandedCollectionView, 
-                                 willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    optional func expanded(_ collectionView: LBExpandedCollectionView, 
+                           willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
     /*
      * Did End Displaying Cell for Collection Item At IndexPath.
      * */
      optional func expanded(_ collectionView: LBExpandedCollectionView,
                              didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)
+    /*
+     * Size For Collection Footer
+     * */
+    optional func sizeForFooter(in collectionView: LBExpandedCollectionView) -> CGSize
+    /* 
+     * Size For Collection Header
+     * */
+    optional func sizeForHeader(in collectionView: LBExpandedCollectionView) -> CGSize
+    /*
+     * Did Select Collection Item At IndexPath
+     * */
+     optional func expanded(_ collectionView: LBExpandedCollectionView, didSelectItemAt indexPath: IndexPath)
 }
 ```
 
-### DataSource ###
-The Collection Data Source Methods.
+### DataSource
+### The Collection Data Source Methods.
 
 ```swift
 @objc public protocol LBExpandedCollectionViewDataSource {
