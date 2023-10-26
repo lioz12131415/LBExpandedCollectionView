@@ -16,7 +16,6 @@
 			dependencies = (
 			);
 			name = LBExpandedCollectionViewFramework;
-			productName = LBExpandedCollectionViewFramework;
 		};
 /* End PBXAggregateTarget section */
 
@@ -27,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EA84A768C5A25370A47EF08F5981707D /* PBXContainerItemProxy */ = {
+		F3D279E06EA56D07E111149DD7F3F589 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,23 +37,25 @@
 
 /* Begin PBXFileReference section */
 		0369823D80CE9E4E7841344C63B41D36 /* Pods-LBExpandedCollectionViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBExpandedCollectionViewExample-resources.sh"; sourceTree = "<group>"; };
+		239C92B4FC48C105FFF92981329249D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		256D6F374008EC6772B98AB43A90B486 /* LBExpandedCollectionViewFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBExpandedCollectionViewFramework.debug.xcconfig; sourceTree = "<group>"; };
 		2ED559D150D963EC0F17B527A6036200 /* Pods-LBExpandedCollectionViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBExpandedCollectionViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		376E0F05A72D8531BB0EF6547A2BF54E /* Pods-LBExpandedCollectionViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBExpandedCollectionViewExample.release.xcconfig"; sourceTree = "<group>"; };
-		3FAD0EA13C39CF5766C03880CC2A2DF6 /* LBExpandedCollectionViewFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LBExpandedCollectionViewFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		3833876D3C77ED3E28C35CE8F6B4441D /* LBExpandedCollectionViewFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBExpandedCollectionViewFramework.release.xcconfig; sourceTree = "<group>"; };
 		4F8465B06B758EB01E8C2DE95BA90028 /* Pods-LBExpandedCollectionViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBExpandedCollectionViewExample-dummy.m"; sourceTree = "<group>"; };
+		581F9AC68AE25D89469962F9BAC0BC64 /* LBExpandedCollectionViewFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBExpandedCollectionViewFramework.h; path = LBExpandedCollectionViewFramework/LBExpandedCollectionViewFramework.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E675ECE3200791F4440912CB8BDFFA1 /* LBExpandedCollectionViewFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LBExpandedCollectionViewFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		87796998FEA3453A054C6DD5B064FAA1 /* Pods-LBExpandedCollectionViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBExpandedCollectionViewExample-Info.plist"; sourceTree = "<group>"; };
+		8A6B7CFFD785C04C7B576CAB79382E3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8EA85A09CD47A11F52738D5E6ECE6C62 /* Pods-LBExpandedCollectionViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBExpandedCollectionViewExample-frameworks.sh"; sourceTree = "<group>"; };
 		98A2567B1A0B3E545DD34BA38D6078B3 /* Pods-LBExpandedCollectionViewExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LBExpandedCollectionViewExample"; path = Pods_LBExpandedCollectionViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ED96F2A085FCABEB0B18AC1F44BF1E4 /* Pods-LBExpandedCollectionViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LBExpandedCollectionViewExample.modulemap"; sourceTree = "<group>"; };
+		A3B24D9AE942C43EF79DE0C2F42ECD10 /* LBExpandedCollectionViewFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = LBExpandedCollectionViewFramework.xcframework; sourceTree = "<group>"; };
 		B2F79ABE4A756EA71EB7C1A3DB904908 /* Pods-LBExpandedCollectionViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBExpandedCollectionViewExample-umbrella.h"; sourceTree = "<group>"; };
-		BF97F21D102456E0645783C78F360205 /* LBExpandedCollectionViewFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBExpandedCollectionViewFramework.release.xcconfig; sourceTree = "<group>"; };
-		C653C83AA77582172E06A5FFE5D69A89 /* LBExpandedCollectionViewFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBExpandedCollectionViewFramework.h; path = LBExpandedCollectionViewFramework/LBExpandedCollectionViewFramework.h; sourceTree = "<group>"; };
+		B7A8E2528E621F882F8E820505DBDF9F /* LBExpandedCollectionViewFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LBExpandedCollectionViewFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E11FDDF79E308A3CD8316EDA737F0016 /* Pods-LBExpandedCollectionViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBExpandedCollectionViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		E718D061B50927BBF912AD621BE06049 /* LBExpandedCollectionViewFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBExpandedCollectionViewFramework.debug.xcconfig; sourceTree = "<group>"; };
-		E89A3C88DEA6A372AD721DF0AAAB3BA0 /* LBExpandedCollectionViewFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = LBExpandedCollectionViewFramework.xcframework; sourceTree = "<group>"; };
+		E825FBFB018E1AF0E34AFE36A71C2BE6 /* LBExpandedCollectionViewFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LBExpandedCollectionViewFramework-xcframeworks.sh"; sourceTree = "<group>"; };
 		FBDF6FAC651E6A2197CA66A6AD55828D /* Pods-LBExpandedCollectionViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBExpandedCollectionViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,9 +74,17 @@
 		0424D56B81A587F69E205549928847FF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A9E628791C0EE88C5262C2A75051B2A2 /* LBExpandedCollectionViewFramework */,
+				BB25188416EE90C564DFF4B3BC81F062 /* LBExpandedCollectionViewFramework */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0C4D632C7A972FF6CA6B7A27251D4D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B24D9AE942C43EF79DE0C2F42ECD10 /* LBExpandedCollectionViewFramework.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -84,6 +93,27 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		629338112CC806AB5F2C903ECE2B8152 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8E2528E621F882F8E820505DBDF9F /* LBExpandedCollectionViewFramework.podspec */,
+				8A6B7CFFD785C04C7B576CAB79382E3B /* LICENSE */,
+				239C92B4FC48C105FFF92981329249D6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		802C6338B937BD8FA174D8C7CDAF24D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E825FBFB018E1AF0E34AFE36A71C2BE6 /* LBExpandedCollectionViewFramework-xcframeworks.sh */,
+				256D6F374008EC6772B98AB43A90B486 /* LBExpandedCollectionViewFramework.debug.xcconfig */,
+				3833876D3C77ED3E28C35CE8F6B4441D /* LBExpandedCollectionViewFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LBExpandedCollectionViewFramework";
 			sourceTree = "<group>";
 		};
 		83AF08312C5194BA76C099240981A2F8 /* Products */ = {
@@ -100,34 +130,6 @@
 				B81E1BC089CB6A84B8A53A05515CA3BD /* Pods-LBExpandedCollectionViewExample */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9AA6196DC37FE847D1FF588C2E235769 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E89A3C88DEA6A372AD721DF0AAAB3BA0 /* LBExpandedCollectionViewFramework.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A9E628791C0EE88C5262C2A75051B2A2 /* LBExpandedCollectionViewFramework */ = {
-			isa = PBXGroup;
-			children = (
-				C653C83AA77582172E06A5FFE5D69A89 /* LBExpandedCollectionViewFramework.h */,
-				9AA6196DC37FE847D1FF588C2E235769 /* Frameworks */,
-				ABF88DBBDB983F94FCD64906DE6A56C4 /* Pod */,
-				C841A6455EDE5AAEB7B1A2622ACAC395 /* Support Files */,
-			);
-			name = LBExpandedCollectionViewFramework;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		ABF88DBBDB983F94FCD64906DE6A56C4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7E675ECE3200791F4440912CB8BDFFA1 /* LBExpandedCollectionViewFramework.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		B81E1BC089CB6A84B8A53A05515CA3BD /* Pods-LBExpandedCollectionViewExample */ = {
@@ -148,15 +150,16 @@
 			path = "Target Support Files/Pods-LBExpandedCollectionViewExample";
 			sourceTree = "<group>";
 		};
-		C841A6455EDE5AAEB7B1A2622ACAC395 /* Support Files */ = {
+		BB25188416EE90C564DFF4B3BC81F062 /* LBExpandedCollectionViewFramework */ = {
 			isa = PBXGroup;
 			children = (
-				3FAD0EA13C39CF5766C03880CC2A2DF6 /* LBExpandedCollectionViewFramework-xcframeworks.sh */,
-				E718D061B50927BBF912AD621BE06049 /* LBExpandedCollectionViewFramework.debug.xcconfig */,
-				BF97F21D102456E0645783C78F360205 /* LBExpandedCollectionViewFramework.release.xcconfig */,
+				581F9AC68AE25D89469962F9BAC0BC64 /* LBExpandedCollectionViewFramework.h */,
+				0C4D632C7A972FF6CA6B7A27251D4D9D /* Frameworks */,
+				629338112CC806AB5F2C903ECE2B8152 /* Pod */,
+				802C6338B937BD8FA174D8C7CDAF24D3 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LBExpandedCollectionViewFramework";
+			name = LBExpandedCollectionViewFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -204,7 +207,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F10F774EE185D1BE0F66EE2C4281E3C8 /* PBXTargetDependency */,
+				791E80474663B02C49D359CA54598E37 /* PBXTargetDependency */,
 			);
 			name = "Pods-LBExpandedCollectionViewExample";
 			productName = Pods_LBExpandedCollectionViewExample;
@@ -281,18 +284,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F10F774EE185D1BE0F66EE2C4281E3C8 /* PBXTargetDependency */ = {
+		791E80474663B02C49D359CA54598E37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBExpandedCollectionViewFramework;
 			target = 1610F3D3208D4BDFBEFF2DBC8CB7D02E /* LBExpandedCollectionViewFramework */;
-			targetProxy = EA84A768C5A25370A47EF08F5981707D /* PBXContainerItemProxy */;
+			targetProxy = F3D279E06EA56D07E111149DD7F3F589 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		01F650ECB43C0580C13AC85FE89FA92D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E718D061B50927BBF912AD621BE06049 /* LBExpandedCollectionViewFramework.debug.xcconfig */;
+			baseConfigurationReference = 256D6F374008EC6772B98AB43A90B486 /* LBExpandedCollectionViewFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,7 +515,7 @@
 		};
 		F98E04FFC080C410A021885643D62FDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF97F21D102456E0645783C78F360205 /* LBExpandedCollectionViewFramework.release.xcconfig */;
+			baseConfigurationReference = 3833876D3C77ED3E28C35CE8F6B4441D /* LBExpandedCollectionViewFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,6 +1,6 @@
 {
   "name": "LBExpandedCollectionViewFramework",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "LBExpandedCollectionView: Lioz Balki ExpandedCollectionView Framework",
   "description": "The Lioz Balki SDK for iOS ExpandedCollectionView framework provides:\n* LBExpandedCollectionView with Expanded Cells",
   "homepage": "https://github.com/lioz12131415/LBExpandedCollectionView.git",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/lioz12131415/LBExpandedCollectionView.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "14.0"

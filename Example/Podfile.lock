@@ -1,5 +1,5 @@
 PODS:
-  - LBExpandedCollectionViewFramework (0.0.1)
+  - LBExpandedCollectionViewFramework (0.0.2)
 
 DEPENDENCIES:
   - LBExpandedCollectionViewFramework (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBExpandedCollectionViewFramework: 1089db4cb324f88e5f4f468aa30a33a40f8d44f5
+  LBExpandedCollectionViewFramework: d7d53da1c9cfeda596e7df7eb8cdd0b3ed0cf000
 
 PODFILE CHECKSUM: b36c1de06a4870f96a682430ca6671f1e5cfc3a2
 
